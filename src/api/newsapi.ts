@@ -1,4 +1,4 @@
-import { NEWS_API_KEY, NEWS_API_URL } from "./config";
+import { NEWS_API_KEY, NEWS_API_URL } from "../constants/config";
 
 export interface NewsArticle {
   title: string;
