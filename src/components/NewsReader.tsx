@@ -25,7 +25,7 @@ const NewsReader: React.FC = () => {
       setHasMore(newArticles.length === PAGE_SIZE);
     } catch (error) {
       setHasMore(false);
-      console.log(error);
+      console.log("Error in fetching news articles: API fetching Error", error);
     }
     setLoading(false);
   }, [page]);
